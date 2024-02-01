@@ -1,0 +1,132 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <script src="https://kit.fontawesome.com/b3c27dd02c.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        
+        <header class="header-fix">
+            <div class="header-container">
+                <h1><i class="fa-solid fa-table"></i>Formatting a Table</h1>
+            </div>
+        </header>
+
+        <div class="container">
+        <section>
+            <aside>
+                <h3><i class="fa-solid fa-question"></i> HTML STRUCTURE</h3>
+                <h4>Tags</h4>
+                <ul>
+                    <li><strong>table:</strong>table</li>
+                    <li><strong>table:</strong>table title</li>
+                    <li><strong>thead:</strong>table header</li>
+                    <li><strong>tbody:</strong>table content</li>
+                    <li><strong>tr:</strong>row of a table</li>
+                    <li><strong>th:</strong>title cell of a table</li>
+                    <li><strong>td:</strong>cell of a table</li>
+                  </ul>
+                  <h4>Attributes</h4>
+                <ul>
+                    <li><strong>colspan:</strong>defines the number of colums to be merged</li>
+                    <li><strong>rowspan:</strong>defines the number of rows to be merged</li>
+                    <li><strong>scope:</strong>defines the td cellsyo which the th cell is linked(row/col)</li>
+                  </ul>
+            </aside>
+            <article>
+                <h3>Unstyled HTML Table</h3>
+                <p>Let's start bu creating a table that will list a data set, for example<br>No CSS style is applied.</p>
+                <table>
+                    <caption>Presentation of the various PHP Frameworks</caption>
+                    <thead>
+                        <tr>
+                          <th>Framework</th>
+                          <th>Year of Creation</th>
+                          <th>Creator</th>
+                          <th>Gitub Stars</th>
+                        </tr>
+                      </thead>
+                    <tbody> 
+                    <tr>
+                        <td><Strong>Symfony</Strong></td>
+                        <td>2025</td>
+                        <td>SensioLabs</td>
+                        <td>23.1k</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Laravel</strong></td>
+                        <td>2011</td>
+                        <td>Taylor Otwell</td>
+                        <td>58.8k</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CodeIgniter</strong></td>
+                        <td>2006</td>
+                        <td>Rick Ellis</td>
+                        <td>18k</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zend Framework</strong></td>
+                        <td>2006</td>
+                        <td>Zend Tecnologies</td>
+                        <td>5.7k</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Yii</strong></td>
+                        <td>2008</td>
+                        <td>Quiang Xu</td>
+                        <td>4.8k</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CakePHP</strong></td>
+                        <td>2005</td>
+                        <td>Cake Software Foundation</td>
+                        <td>8.1k</td>
+                    </tr>
+                    <tr>
+                        <td><strong>FuelPHP</strong></td>
+                        <td>2011</td>
+                        <td>Feul PHP dev team</td>
+                        <td>>1k</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Phalcon</strong></td>
+                        <td>2012</td>
+                        <td>Andres Gutierrez</td>
+                        <td>10.1k</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Slim PHP</strong></td>
+                        <td></td>
+                        <td>Slim Framewor Team</td>
+                        <td>10.6k</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pear</strong></td>
+                        <td>1999</td>
+                        <td>Stig S. Bakken</td>
+                        <td></td>
+                    </tr>
+                    </tbody> 
+                    <tfoot>
+                        <tr>
+                          <td><strong>Total stars</strong></td>
+                          <td></td>
+                          <td></td>
+                          <td>>100k</td>
+                        </tr>
+
+                </table>
+            </article>
+        </section>
+    </div>
+    </body>
+</html>
